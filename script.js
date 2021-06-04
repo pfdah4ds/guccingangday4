@@ -26,3 +26,17 @@ const dog = {
 }
 dog.info();
 console.log(this);
+//Loop
+//for loop()
+frontemd = ['html','css','js','bstrap','react'];
+for(let i=0;i<10;i++){
+    console.log('i:',i);
+}
+for(i = 0;i<frontemd.length;i++){
+    console.log('i:',frontemd[i]);
+}
+
+//foreach
+frontemd.forEach(function(i,j){
+    console.log(i,j);
+});
